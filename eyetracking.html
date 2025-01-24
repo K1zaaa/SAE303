@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autisme - Sensibilisation</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: #17193A ;
+        }
+
+        h1, h2, h3{
+            font-family: 'Quicksand', sans-serif;
+        }
+
+         .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+            /* height: 80px; */
+        } 
+
+
+         .navbar-nav .nav-link {
+            color: #17193A;
+            /* margin-right: 1rem; */
+            /* transition: color 0.3s; */
+        } 
+
+         .navbar-nav .nav-link:hover {
+            color: #4587FF;
+    
+        } 
+
+        .navbar-nav{
+            margin-right: 30px;
+        }
+
+        .navbar-toggler {
+            color: #4587FF;
+        }   
+
+       
+        .header {
+            /* background-color: #4C5EFB; */
+            color: #4587FF;
+            /* padding: 3rem 0; */
+            text-align: center;
+        }
+
+        
+        .header h1 {
+           margin: 0;
+        }
+
+        .video-container {
+            position: relative;
+            padding-top: 400px; 
+            background-color: #4587FF;
+            border-radius: 35px;
+        }
+
+        .video-container iframe, 
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .explication {
+            background-color:#4587FF ;
+            height: 68vh;
+            /* border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        }
+
+        .explication h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #4587FF;
+        }
+
+        
+      footer.footer {
+  background-color: #f8f9fa; /* Fond clair */
+  color: #343a40; /* Texte sombre */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Espacement entre les sections */
+footer .row {
+  margin-bottom: 20px;
+}
+
+/* Style des liens de navigation */
+footer a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff; /* Couleur au survol */
+  text-decoration: underline;
+}
+
+/* Style des icônes sociales */
+footer .fab {
+  font-size: 24px;
+  color: #343a40;
+  transition: color 0.3s;
+}
+
+footer .fab:hover {
+  color: #007bff; /* Couleur au survol */
+}
+
+/* Alignement du copyright */
+footer .text-center {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Espacement supplémentaire entre les sections */
+footer .container {
+  max-width: 1140px;
+}
+
+/* Style des images */
+footer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+/* Section des liens de mentions légales */
+footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.logos{
+            display: block;
+        width: 150px;
+        }
+
+
+
+        .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+        img{
+            width: 100px;
+        }
+
+        .img1{
+          width: 100px;
+        }
+      
+        
+    .btn {
+
+margin: auto;
+width: 10%;
+justify-content: center;
+}
+span{
+  color: #E7C1D4;
+}
+.bouttonbleu {
+display: block;
+margin: auto;
+width: 10%;
+background-color: #4587FF;
+margin-bottom: 2%;
+}
+
+.explication {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%; 
+}
+
+    </style>
+</head>
+<body>
+    
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+        <a href="pageaccueil.html"><img src="./Image/logo site.png" class="logo"  ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pageaccueil.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eyetracking.html">Eye-tracking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Expérience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Nous contacter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Header  -->
+    <header class="header mt-5">
+        <div class="container">
+            <h1>Eye-tracking video</h1>
+            <p class="mt-2">L'eye-tracking est un outil 
+              innovant qui permet d'analyser les comportements 
+              visuels, offrant de nouvelles perspectives <br> dans la 
+              compréhension de <span>troubles</span> tels que l'autisme. Nous 
+              l'avons utilisé sur notre site pour<br>mieux comprendre
+               les réactions des utilisateurs et optimiser l'expérience.</p>
+        </div>
+    </header>
+
+    <!-- Video  -->
+    <div class="container mt-5" id="video">
+        <div class="video-container mb-4">
+            <video controls autoplay muted loop class="w-100">
+                <source src="./video + miniature/0123.mp4" type="video/webm" />
+                Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+        </div>
+    </div>
+
+    <!-- <div class="d-flex justify-content-center align-items-center mb-4">
+      <a class="boutonClique"  href="#boutonDescendre"><button type="button" class="btn btn-outline-primary">En savoir plus</button></a>
+    </div> -->
+
+    <a class="boutonClique"  href="#boutonDescendre"><button type="button " class="btn btn-primary bouttonbleu"> <svg xmlns="http://www.w3.org/2000/svg" width="46"
+      height="46" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
+  </svg>
+</button></a>
+
+ <div class="explication" id="explication">
+            
+
+    <section class=" py-5">
+        <div class="container">
+          <div class="row g-4">
+           
+            <div  class="col-12 col-sm-6 col-md-4 col-lg-3 " id="boutonDescendre">
+              <div class="card shadow-sm h-100">
+              <div class="card-body text-justify">
+           <h3 class="card-title text-primary">L'eye tracking</h3>
+                  <p class="card-text">
+                    L'eye-tracking nous permet d'observer et d'analyser
+                     les parcours visuels des utilisateurs sur notre site. 
+                     Pour cette expérience, nous avons observé comment les 
+                     utilisateurs réagissent aux différents éléments de la 
+                     page, en mettant l'accent sur les animations, les visages, 
+                     et les graphiques. L'objectif principal était de comprendre 
+                     comment le regard se déplace sur le site, en particulier face 
+                     à des éléments visuels clés.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body text-justify">
+       
+             <h3 class="card-title text-primary">Attentes visuelles</h3>
+                  <p class="card-text">
+                    Nous avions des attentes précises concernant 
+                    l'accueil du site et la page de contenu. Pour 
+                    l'accueil, l'animation de l'œil devait représenter
+                     le thème et attirer immédiatement l'attention. Sur 
+                     la page, nous voulions que les utilisateurs se 
+                     concentrent d'abord sur les visages, puis sur les 
+                     pictogrammes et enfin sur les graphiques. L'idée 
+                     était de guider l'utilisateur à travers un parcours 
+                     visuel bien défini.
+                  </p>
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body text-justify">
+                  <h3 class="card-title text-primary">Comportement</h3>
+                  <p class="card-text ">
+                    Lors de la démo, nous avons observé que 
+                    les femmes interrogées regardaient d'abord 
+                    les visages, tandis que les hommes semblaient 
+                    plus attirés par les graphiques. Même si ce comportement 
+                    n'est pas une règle générale, il est intéressant de noter 
+                    cette tendance. En outre, le regard des utilisateurs se 
+                    dirigeait rapidement vers les CTA (Call-To-Action) du graphique, ce 
+                    qui montre l'importance de l'impact visuel de ces éléments.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body text-justify">
+                  <h3 class="card-title text-primary">Résultats</h3>
+                  <p class="card-text">
+                    Le parcours visuel respecté par les utilisateurs 
+                    (visage, pictogramme, graphique) correspondait
+                     globalement à nos attentes. L'animation a bien capté 
+                     l'attention initiale, et les utilisateurs ont pris le 
+                     temps de regarder le titre et le header avant de poursuivre 
+                     leur navigation. Il est intéressant de noter que certains
+                      utilisateurs ont scanné la page rapidement, tandis que 
+                      d'autres ont pris le temps de détailler chaque élément. 
+                      
+                  </p>
+                </div>
+
+                
+              </div>
+            </div>
+
+    
+
+          </div>
+        </div>
+
+        
+      </section>
+
+ 
+    </div> 
+
+  
+    <!-- <footer class="mt-5">
+        
+        <p>&copy;  <a href="#">??</a></p>
+    </footer> -->
+
+    <footer class="footer bg-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo section -->
+          <div class="col-md-3 mb-3 mb-md-0">
+            <img src="./logo site.png" alt="Logo principal" class="img-fluid mb-2 logos">
+            <img src="./logo_iut.svg" alt="Logo secondaire" class="img-fluid logos">
+          </div>
+    
+          <!-- Navigation Links section -->
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5 class=" mb-3">Navigation</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">Accueil</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Eye-tracking</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Afif</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Nous contacter</a></li>
+            </ul>
+          </div>
+    
+          <!-- Contact & Legal Links section -->
+          <div class="col-md-3">
+            <h5 class="mb-3">Contact & Mentions</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">Nous contacter</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Mentions légales</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">Besoin d'aide ?</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Social Media Links -->
+       
+        <div class="row">
+          <div class="col-md-12 text-center mt-3">
+            <a href="#" class="text-dark mx-2 "><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-dark mx-2 "><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-dark mx-2 "><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="row mt-4">
+          <div class="col-md-12 text-center">
+            <p class="mb-0 text-dark">&copy; Ce site œuvre pour sensibiliser et lutter 
+              contre les préjugés autour de l'autisme, en favorisant l'inclusion, la connaissance et le respect de toutes les personnes. <a href="#" class="text-dark">Plan du site</a> | <a href="#" class="text-dark">Mentions légales</a> | <a href="#" class="text-dark">Politique de confidentialité</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   
+
+    <!-- Bootstrap JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+
+function showExplanation(id) {
+  // Cache toutes les explications
+  const allExplanations = document.querySelectorAll('.explanation-text');
+  allExplanations.forEach(function (explanation) {
+    explanation.style.display = 'none';
+  });
+  
+  // Affiche l'explication du pictogramme sélectionné
+  const explanation = document.getElementById(id);
+  explanation.style.display = 'block';
+}
+
+
+
+    </script>
+</body>
+</html>
